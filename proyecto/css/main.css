@@ -1,0 +1,170 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  text-decoration: none;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #37b356;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(166, 255, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: rgba(198, 241, 7, 0.925);
+  }
+
+  p {
+    color: #999;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
+  #wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .page-head-image img {
+    border-radius: 50%;
+  }
+  
+  #form-trabalhe {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: normal;
+    margin-top: 15px;
+  }
+  
+  input {
+    border: 2px solid #CCC !important;
+    height: 35px;
+    border-radius: 3px;
+    max-width: 100%;
+  }
+  
+  .input-group-addon {
+    border: 2px solid #CCC !important;
+    border-right: 0px !important;
+  }
+  
+  .btn {
+    border: 0;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+.imagenes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.three {
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.three img {
+  padding: 40px;
+}
+
+.topnav img {
+  width: 6%;
+  float :right;
+  margin-right: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.footer p {
+  font-size: 12px;
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 60px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+

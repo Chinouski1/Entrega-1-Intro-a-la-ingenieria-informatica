@@ -1,0 +1,1 @@
+document.getElementById('ddtopmenubar').style.display = 'block';
